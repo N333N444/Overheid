@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:edfi="http://ed-fi.org/3.3.1-b" 
+           targetNamespace="http://ed-fi.org/3.3.1-b" 
+           xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" 
+           elementFormDefault="qualified" 
+           attributeFormDefault="unqualified">
+  <xs:include schemaLocation="https://raw.githubusercontent.com/Ed-Fi-Alliance-OSS/Ed-Fi-Standard/main/Schemas/Bulk/Ed-Fi-Core.xsd" />
+  <xs:import namespace="http://www.codesynthesis.com/xmlns/xsstl" schemaLocation="https://www.codesynthesis.com/projects/xsstl/xsstl/iso3166-country-code.xsd"/>
+  <xs:annotation>
+    <xs:documentation>
+      ===== Organization Interchange Model =====
+      Written to mimic existing Interchange-xxx schemas, with an additional 'OrganizationsList' element to serve as document root and some attributes.
+      By Jens Gulden for Architectures of Digital Ecosystems at Utrecht University, j.gulden@uu.nl. 
+    </xs:documentation>
+  </xs:annotation>
+  
+  <xs:element name="InterchangeOrganization">
+    <xs:annotation>
+      <xs:documentation>This interchange defines organizations and contains relevant identifying information.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+          <xs:element name="Name" type="xs:string"/>
+          <xs:element name="Description" type="xs:string"/>
+          <xs:element name="URI" type="xs:anyURI"/>
+          <xs:element name="Address" type="edfi:Address" minOccurs="0" maxOccurs="unbounded" />
+          <xs:element name="ElectronicMailAddress" type="edfi:ElectronicMailAddress" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The email for the contact associated with the EducationOrganization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="Telephone" type="edfi:Telephone" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation>The optional telephone for the contact associated with the EducationOrganization.</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ContactPerson" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name">
+                  <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                        <xs:attribute name="academicTitle" type="xs:string" use="optional"/>
+                      </xs:extension>
+                    </xs:simpleContent>
+                  </xs:complexType>                
+                </xs:element>
+                <xs:element name="Address" type="edfi:Address" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="ElectronicMailAddress" type="edfi:ElectronicMailAddress" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="Telephone" type="edfi:Telephone" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:attribute name="role" type="xs:string" use="required"/>
+            </xs:complexType>
+          </xs:element>
+      </xs:sequence>
+      <xs:attribute name="type" type="xs:string" use="required"/>
+      <xs:attribute name="countryCode" type="iso:ISO3166CountyCode" use="optional"/> <!-- For those who like to show that they can cope with multiple input namespaces in their transformation. ;-) -->
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="OrganizationsList">
+    <xs:annotation>
+      <xs:documentation>This can be used as document root element to list organizations.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element ref="edfi:InterchangeOrganization" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
