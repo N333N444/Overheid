@@ -1,0 +1,17 @@
+<?xml version =="1.0" encoding =="UTF 8"?> 
+<xs:schema xmlns:xs="http://www.example/example"> 
+
+<InterchangeOrganization>
+    <Name>John Doe</Name>
+    <Description>This is the Description</Description>
+    <URI>“http://example.org/”</URI>
+    <Address>Straatnaam 1, 1234AB Plaats</Address>
+    <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+    <Telephone>0612345678</Telephone>
+    <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
+    <type>type<type>
+    <countryCode></countryCode>
+</InterchangeOrganization>
+
+<OrganizationsList>
+</OrganizationsList
