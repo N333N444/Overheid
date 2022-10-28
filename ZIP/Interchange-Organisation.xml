@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema xmlns:xs="http://www.example/example "> 
+<InterchangeOrganization xmlns="http://ed-fi.org/4.0.0-a" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0-a Interchange-Organisations.xsd" type="string" countryCode="EC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 
-
-    <InterchangeOrganization>
         <Name>John Doe</Name>
         <Description>This is the Description</Description>
-        <URI>“http://example.org/”</URI>
-        <Address>Straatnaam 1, 1234AB Plaats</Address>
+        <URI>http://example.org/a</URI>
+        <Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
         <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>0612345678</Telephone>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <InstitutionTelephoneNumberType>31</InstitutionTelephoneNumberType>
+        </Telephone>
         <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
         <type>type<type>
         <countryCode></countryCode>
@@ -19,9 +26,18 @@
         <Name>John Doe</Name>
         <Description>This is the Description</Description>
         <URI>“http://example.org/”</URI>
-        <Address>Straatnaam 1, 1234AB Plaats</Address>
+       	<Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
         <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>0612345678</Telephone>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        </Telephone>
         <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
         <type>type<type>
         <countryCode></countryCode>
@@ -31,9 +47,18 @@
         <Name>John Doe</Name>
         <Description>This is the Description</Description>
         <URI>“http://example.org/”</URI>
-        <Address>Straatnaam 1, 1234AB Plaats</Address>
+        <Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
         <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>0612345678</Telephone>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        </Telephone>
         <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
         <type>type<type>
         <countryCode></countryCode>
@@ -41,3 +66,4 @@
 
 <OrganizationsList>
 </OrganizationsList>
+        
