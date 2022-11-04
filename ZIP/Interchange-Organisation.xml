@@ -1,52 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <InterchangeOrganization xmlns="http://ed-fi.org/4.0.0" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0 Interchange-Organisations.xsd" type="string" countryCode="EC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
-        <Name>John Doe</Name>
-        <Description>This is the Description</Description>
-        <URI>http://example.org/a</URI>
-        <Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
-          <AddressType>Physicall address</AddressType>
-        </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
-          <InstitutionTelephoneNumberType>31</InstitutionTelephoneNumberType>
-        </Telephone>
-        <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
-        <type>type<type>
-        <countryCode></countryCode>
-    </InterchangeOrganization>
-
-    <InterchangeOrganization>
-        <Name>John Doe</Name>
-        <Description>This is the Description</Description>
-        <URI>“http://example.org/”</URI>
-       	<Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
-          <AddressType>Physicall address</AddressType>
-        </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
-          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
-        </Telephone>
-        <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
-        <type>type<type>
-        <countryCode></countryCode>
-    </InterchangeOrganization>
-
-    <InterchangeOrganization>
-        <Name>John Doe</Name>
-        <Description>This is the Description</Description>
-        <URI>“http://example.org/”</URI>
+      <Name>John Doe</Name>
+      <Description>This is the Description</Description>
+      <URI>“http://example.org/”</URI>
+      <Address>
+        <StreetNumberName>Straat 1</StreetNumberName>
+        <City>Rotterdam</City>
+        <StateAbbreviation>RTD</StateAbbreviation>
+        <PostalCode>12345</PostalCode>
+        <AddressType>Physicall address</AddressType>
+      </Address>
+      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <Telephone>
+        <TelephoneNumber>0612345678</TelephoneNumber>
+        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+      </Telephone> 
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
         <Address>
           <StreetNumberName>Straat 1</StreetNumberName>
           <City>Rotterdam</City>
@@ -59,9 +30,87 @@
           <TelephoneNumber>0612345678</TelephoneNumber>
           <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
         </Telephone>
-        <ContactPerson>Jan Willem Proffesor Janwillem@gmail.com 0612345678 proffesor</ContactPerson>
-        <type>type<type>
-        <countryCode></countryCode>
+      </ContactPerson>
+      <type>type<type>
+      <countryCode>
+        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
+      </countryCode>
+</InterchangeOrganization>
+      
+
+    <InterchangeOrganization>
+      <Name>John Doe</Name>
+      <Description>This is the Description</Description>
+      <URI>“http://example.org/”</URI>
+      <Address>
+        <StreetNumberName>Straat 1</StreetNumberName>
+        <City>Rotterdam</City>
+        <StateAbbreviation>RTD</StateAbbreviation>
+        <PostalCode>12345</PostalCode>
+        <AddressType>Physicall address</AddressType>
+      </Address>
+      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <Telephone>
+        <TelephoneNumber>0612345678</TelephoneNumber>
+        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+      </Telephone> 
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
+      <type>type<type>
+      <countryCode>
+        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
+      </countryCode>
+    </InterchangeOrganization>
+
+
+    <InterchangeOrganization>
+      <Name>John Doe</Name>
+      <Description>This is the Description</Description>
+      <URI>“http://example.org/”</URI>
+      <Address>
+        <StreetNumberName>Straat 1</StreetNumberName>
+        <City>Rotterdam</City>
+        <StateAbbreviation>RTD</StateAbbreviation>
+        <PostalCode>12345</PostalCode>
+        <AddressType>Physicall address</AddressType>
+      </Address>
+      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <Telephone>
+        <TelephoneNumber>0612345678</TelephoneNumber>
+        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+      </Telephone> 
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
+      <type>type<type>
+      <countryCode>
+        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
+      </countryCode>
     </InterchangeOrganization>
 
 <OrganizationsList>
