@@ -37,7 +37,7 @@
 <InterchangeOrganization>
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
-      <URI>“http://example.org/”</URI>
+      <URI>http://example.org/</URI>
       <Address>
         <StreetNumberName>Straat 1</StreetNumberName>
         <City>Rotterdam</City>
@@ -48,7 +48,7 @@
       <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
       <Telephone>
         <TelephoneNumber>0612345678</TelephoneNumber>
-        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        <TelephoneNumberType>een telefoon</TelephoneNumberType>
       </Telephone> 
       <ContactPerson role="proffesor">
         <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
@@ -62,20 +62,17 @@
         <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
         <Telephone>
           <TelephoneNumber>0612345678</TelephoneNumber>
-          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+          <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
-      <type>type<type>
-      <countryCode>
-        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
-      </countryCode>
 </InterchangeOrganization>
+<
 
 
 <InterchangeOrganization>
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
-      <URI>“http://example.org/”</URI>
+      <URI>http://example.org/</URI>
       <Address>
         <StreetNumberName>Straat 1</StreetNumberName>
         <City>Rotterdam</City>
@@ -86,7 +83,7 @@
       <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
       <Telephone>
         <TelephoneNumber>0612345678</TelephoneNumber>
-        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+        <TelephoneNumberType>een telefoon</TelephoneNumberType>
       </Telephone> 
       <ContactPerson role="proffesor">
         <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
@@ -100,13 +97,9 @@
         <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
         <Telephone>
           <TelephoneNumber>0612345678</TelephoneNumber>
-          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
+          <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
-      <type>type<type>
-      <countryCode>
-        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
-      </countryCode>
 </InterchangeOrganization>
 
 <OrganizationsList>
