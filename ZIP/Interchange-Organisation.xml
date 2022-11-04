@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<InterchangeOrganization xmlns="http://ed-fi.org/4.0.0" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0 Interchange-Organisations.xsd" type="string" countryCode="EC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<OrganizationsList xmlns="http://ed-fi.org/4.0.0" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0 Interchange-Organisations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+  <InterchangeOrganization type="string" countryCode="EC">
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
       <URI>http://example.org/</URI>
@@ -31,10 +32,10 @@
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
-</InterchangeOrganization>
+  </InterchangeOrganization>
       
 
-<InterchangeOrganization>
+  <InterchangeOrganization type="string" countryCode="EC">
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
       <URI>http://example.org/</URI>
@@ -65,11 +66,11 @@
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
-</InterchangeOrganization>
-<
+  </InterchangeOrganization>
 
 
-<InterchangeOrganization>
+
+  <InterchangeOrganization type="string" countryCode="EC">
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
       <URI>http://example.org/</URI>
@@ -100,8 +101,7 @@
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
-</InterchangeOrganization>
+  </InterchangeOrganization>
 
-<OrganizationsList>
 </OrganizationsList>
         
