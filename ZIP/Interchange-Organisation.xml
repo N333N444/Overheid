@@ -3,6 +3,40 @@
 
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
+      <URI>http://example.org/</URI>
+      <Address>
+        <StreetNumberName>Straat 1</StreetNumberName>
+        <City>Rotterdam</City>
+        <StateAbbreviation>RTD</StateAbbreviation>
+        <PostalCode>12345</PostalCode>
+        <AddressType>Physicall address</AddressType>
+      </Address>
+      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <Telephone>
+        <TelephoneNumber>0612345678</TelephoneNumber>
+        <TelephoneNumberType>een telefoon</TelephoneNumberType>
+      </Telephone> 
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Address>
+          <StreetNumberName>Straat 1</StreetNumberName>
+          <City>Rotterdam</City>
+          <StateAbbreviation>RTD</StateAbbreviation>
+          <PostalCode>12345</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>0612345678</TelephoneNumber>
+          <TelephoneNumberType>1</TelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
+</InterchangeOrganization>
+      
+
+<InterchangeOrganization>
+      <Name>John Doe</Name>
+      <Description>This is the Description</Description>
       <URI>“http://example.org/”</URI>
       <Address>
         <StreetNumberName>Straat 1</StreetNumberName>
@@ -36,9 +70,9 @@
         <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
       </countryCode>
 </InterchangeOrganization>
-      
 
-    <InterchangeOrganization>
+
+<InterchangeOrganization>
       <Name>John Doe</Name>
       <Description>This is the Description</Description>
       <URI>“http://example.org/”</URI>
@@ -73,45 +107,7 @@
       <countryCode>
         <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
       </countryCode>
-    </InterchangeOrganization>
-
-
-    <InterchangeOrganization>
-      <Name>John Doe</Name>
-      <Description>This is the Description</Description>
-      <URI>“http://example.org/”</URI>
-      <Address>
-        <StreetNumberName>Straat 1</StreetNumberName>
-        <City>Rotterdam</City>
-        <StateAbbreviation>RTD</StateAbbreviation>
-        <PostalCode>12345</PostalCode>
-        <AddressType>Physicall address</AddressType>
-      </Address>
-      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-      <Telephone>
-        <TelephoneNumber>0612345678</TelephoneNumber>
-        <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
-      </Telephone> 
-      <ContactPerson role="proffesor">
-        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
-        <Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
-          <AddressType>Physicall address</AddressType>
-        </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
-        <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
-          <InstitutionTelephoneNumberType>1</InstitutionTelephoneNumberType>
-        </Telephone>
-      </ContactPerson>
-      <type>type<type>
-      <countryCode>
-        <country code='nl' handle='netherlands' continent='europe' alt='Nederlands NL Holland' iso='528'>Netherlands</country>
-      </countryCode>
-    </InterchangeOrganization>
+</InterchangeOrganization>
 
 <OrganizationsList>
 </OrganizationsList>
