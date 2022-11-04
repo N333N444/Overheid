@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deliveries xmlns="http://www.example.org/deliveries2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/deliveries2 deliveries2.xsd ">
+
+  <delivery time="2021-03-11T19:25:00">
+    <item price="12.50">Pizza</item>
+    <seller>
+      <name>De Pizzabakkers</name>
+      <street>Nachtegaalstraat 70</street>
+      <zip>3581 AM</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </seller>
+    <buyer>
+      <name>Peter Smith</name>
+      <street>Parkstraat 31</street>
+      <zip>3581 PC</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </buyer>
+  </delivery>
+  
+  <delivery time="2021-03-11T19:54:10">
+    <item price="11.30">Pizza</item>
+    <item price="9.55">Pasta</item>
+    <seller>
+      <name>Vapiano</name>
+      <street>Stationsplein 4</street>
+      <zip>3511 ED</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </seller>
+    <buyer>
+      <name>Tom Snyder</name>
+      <street>Princetonplein 5</street>
+      <zip>3584 CC</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </buyer>
+  </delivery>
+  
+  <delivery time="2021-03-11T20:17:52">
+    <item price="7.80">Salad</item>
+    <seller>
+      <name>Vapiano</name>
+      <street>Stationsplein 4</street>
+      <zip>3511 ED</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </seller>
+    <buyer>
+      <name>Susi Miller</name>
+      <street>Voorstraat 11</street>
+      <zip>3512 AN</zip>
+      <city>Utrecht</city>
+      <country>NL</country>
+    </buyer>
+  </delivery>
+  
+</deliveries>

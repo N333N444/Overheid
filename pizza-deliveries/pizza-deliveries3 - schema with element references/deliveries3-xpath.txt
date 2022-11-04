@@ -1,0 +1,5 @@
+All sellers who sold something above 20 EUR in one delivery:
+//address[@id = //delivery[sum(item/@price)>20]/seller]/name
+
+Total sales of Vapiano:
+sum(//delivery[seller=//address[name='Vapiano']/@id]/item/@price)

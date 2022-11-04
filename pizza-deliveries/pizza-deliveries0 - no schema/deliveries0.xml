@@ -1,0 +1,22 @@
+<deliveries>
+
+  <delivery time="2021-03-11T19:25:00">
+    <item>Pizza</item>
+    <seller>De Pizzabakkers</seller>
+    <buyer>Peter Smith</buyer>
+  </delivery>
+
+  <delivery time="2021-03-11T19:54:10">
+    <item>Pizza</item>
+    <item>Pasta</item>
+    <seller>Vapiano</seller>
+    <buyer>Tom Snyder</buyer>
+  </delivery>
+
+  <delivery time="2021-03-11T20:17:52">
+    <item>Salad</item>
+    <seller>Vapiano</seller>
+    <buyer>Susi Miller</buyer>
+  </delivery>
+
+</deliveries>

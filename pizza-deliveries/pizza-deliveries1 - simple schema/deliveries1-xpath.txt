@@ -1,0 +1,11 @@
+All deliveries from Vapiano:
+/deliveries/delivery[seller='Vapiano']
+
+All buyers of Pizza:
+/deliveries/delivery[item='Pizza']/buyer
+
+All sellers of Pizza:
+//delivery[item='Pizza']/seller
+
+Time when Salad was delivered:
+//delivery[item='Salad']/@time

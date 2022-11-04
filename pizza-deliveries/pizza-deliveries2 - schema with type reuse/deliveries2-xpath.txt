@@ -1,0 +1,2 @@
+All sellers who sold something above 20 EUR:
+//delivery[sum(item/@price)>20]/seller/name

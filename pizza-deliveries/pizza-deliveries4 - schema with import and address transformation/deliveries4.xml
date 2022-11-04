@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deliveries xmlns="http://www.example.org/deliveries4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/deliveries4 deliveries4.xsd ">
+
+  <delivery time="2021-03-11T19:25:00">
+    <item price="12.50">Pizza</item>
+    <seller>dp2Ut</seller>
+    <buyer>cust1</buyer>
+  </delivery>
+  
+  <delivery time="2021-03-11T19:54:10">
+    <item price="11.30">Pizza</item>
+    <item price="9.55">Pasta</item>
+    <seller>vapUt</seller>
+    <buyer>cust2</buyer>
+  </delivery>
+  
+  <delivery time="2021-03-11T20:17:52">
+    <item price="7.80">Salad</item>
+    <seller>vapUt</seller>
+    <buyer>cust3</buyer>
+  </delivery>
+
+  <address id="vapUt">
+    <name>Vapiano</name>
+    <street>Stationsplein 4</street>
+    <extra>In front of the main station.</extra>
+    <zip>3511 ED</zip>
+    <city>Utrecht</city>
+    <country>NL</country>
+  </address>
+  
+  <address id="dp2Ut">
+    <name>De Pizzabakkers</name>
+    <street>Nachtegaalstraat 70</street>
+    <zip>3581 AM</zip>
+    <city>Utrecht</city>
+    <country>NL</country>
+  </address>
+  
+  <address id="cust1">
+    <name>Peter Smith</name>
+    <street>Parkstraat 88</street>
+    <zip>3581 PC</zip>
+    <city>Utrecht</city>
+    <country>NL</country>
+    <idImage location="https://upload.wikimedia.org/wikipedia/en/5/50/Goofy_Duckipedia.png"/>
+  </address>
+  
+  <address id="cust2">
+    <name>Tom Snyder</name>
+    <street>Princetonplein 5</street>
+    <zip>3584 CC</zip>
+    <city>Utrecht</city>
+    <country>NL</country>
+    <idImage location="https://upload.wikimedia.org/wikipedia/en/a/a5/Donald_Duck_angry_transparent_background.png"/>
+  </address>
+  
+  <address id="cust3">
+    <name>Susi Miller</name>
+    <street>Princetonplein 5</street>
+    <zip>3584 CC</zip>
+    <city>Utrecht</city>
+    <country>NL</country>
+    <idImage location="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png"/>
+  </address>
+  
+</deliveries>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/deliveries2" xmlns:tns="http://www.example.org/deliveries2" elementFormDefault="qualified">
+
+	<xs:element name="deliveries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="delivery" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<!-- 
+							  The following adds an attribute "price" to the string-typed element.
+							  This is quite complicated for such a simple addition. 
+							-->
+							<xs:element name="item" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="price" type="xs:float"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="seller" type="tns:addressType" />
+							<xs:element name="buyer" type="tns:addressType" />
+						</xs:sequence>
+						<xs:attribute name="time" type="xs:dateTime" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element> 
+
+	<xs:complexType name="addressType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="street" type="xs:string" />
+			<xs:element name="extra" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="zip" type="xs:string" />
+			<xs:element name="city" type="xs:string" />
+			<xs:element name="country" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

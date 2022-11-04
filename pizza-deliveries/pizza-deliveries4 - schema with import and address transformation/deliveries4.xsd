@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           targetNamespace="http://www.example.org/deliveries4" 
+           xmlns:tns="http://www.example.org/deliveries4" 
+           xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" 
+           elementFormDefault="qualified">
+
+	<xs:import namespace="http://www.codesynthesis.com/xmlns/xsstl" schemaLocation="https://www.codesynthesis.com/projects/xsstl/xsstl/iso3166-country-code.xsd"/>
+
+	<xs:element name="deliveries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="delivery" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="item" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="price" type="xs:float"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="seller" type="xs:IDREF" />
+							<xs:element name="buyer" type="xs:IDREF" />
+						</xs:sequence>
+						<xs:attribute name="time" type="xs:dateTime" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="address" maxOccurs="unbounded" type="tns:addressType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element> 
+
+	<xs:complexType name="addressType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="street" type="xs:string" />
+			<!-- may occure 0..n times: -->
+			<xs:element name="extra" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="zip" type="xs:string" />
+			<xs:element name="city" type="xs:string" />
+			<xs:element name="country" type="iso:ISO3166CountyCode" />
+			<!-- optional element, has one attribute: -->
+			<xs:element name="idImage" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="location" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" />
+	</xs:complexType>
+
+</xs:schema>

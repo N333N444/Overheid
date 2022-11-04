@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="deliveries1-renderer.xsl"?>
+
+<deliveries xmlns="http://www.example.org/deliveries1" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.example.org/deliveries1 deliveries1.xsd ">
+
+  <delivery time="2021-03-11T19:25:00">
+    <item>Pizza</item>
+    <seller>De Pizzabakkers</seller>
+    <buyer>Peter Smith</buyer>
+  </delivery>
+
+  <delivery time="2021-03-11T19:54:10">
+    <item>Pizza</item>
+    <item>Pasta</item>
+    <seller>Vapiano</seller>
+    <buyer>Tom Snyder</buyer>
+  </delivery>
+
+  <delivery time="2021-03-11T20:17:52">
+    <item>Salad</item>
+    <seller>Vapiano</seller>
+    <buyer>Susi Miller</buyer>
+  </delivery>
+
+</deliveries>

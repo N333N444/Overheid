@@ -1,0 +1,50 @@
+<adr:PostalAddressList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xmlns:del="http://www.example.org/deliveries4"
+                       xmlns:adr="http://xml.coverpages.org/HR-XML-PostalAddress-1_2"
+                       xsi:schemaLocation="http://xml.coverpages.org/HR-XML-PostalAddress-1_2 PostalAddress-1_2.xsd">
+   <adr:PostalAddress type="streetAddress">
+      <adr:CountryCode>NL</adr:CountryCode>
+      <adr:PostalCode>3511 ED</adr:PostalCode>
+      <adr:Municipality>Utrecht</adr:Municipality>
+      <adr:DeliveryAddress>
+         <adr:StreetName>Stationsplein</adr:StreetName>
+         <adr:BuildingNumber>4</adr:BuildingNumber>
+      </adr:DeliveryAddress>
+   </adr:PostalAddress>
+   <adr:PostalAddress type="streetAddress">
+      <adr:CountryCode>NL</adr:CountryCode>
+      <adr:PostalCode>3581 AM</adr:PostalCode>
+      <adr:Municipality>Utrecht</adr:Municipality>
+      <adr:DeliveryAddress>
+         <adr:StreetName>Nachtegaalstraat</adr:StreetName>
+         <adr:BuildingNumber>70</adr:BuildingNumber>
+      </adr:DeliveryAddress>
+   </adr:PostalAddress>
+   <adr:PostalAddress type="streetAddress">
+      <adr:CountryCode>NL</adr:CountryCode>
+      <adr:PostalCode>3581 PC</adr:PostalCode>
+      <adr:Municipality>Utrecht</adr:Municipality>
+      <adr:DeliveryAddress>
+         <adr:StreetName>Parkstraat</adr:StreetName>
+         <adr:BuildingNumber>88</adr:BuildingNumber>
+      </adr:DeliveryAddress>
+   </adr:PostalAddress>
+   <adr:PostalAddress type="streetAddress">
+      <adr:CountryCode>NL</adr:CountryCode>
+      <adr:PostalCode>3584 CC</adr:PostalCode>
+      <adr:Municipality>Utrecht</adr:Municipality>
+      <adr:DeliveryAddress>
+         <adr:StreetName>Princetonplein</adr:StreetName>
+         <adr:BuildingNumber>5</adr:BuildingNumber>
+      </adr:DeliveryAddress>
+   </adr:PostalAddress>
+   <adr:PostalAddress type="streetAddress">
+      <adr:CountryCode>NL</adr:CountryCode>
+      <adr:PostalCode>3584 CC</adr:PostalCode>
+      <adr:Municipality>Utrecht</adr:Municipality>
+      <adr:DeliveryAddress>
+         <adr:StreetName>Princetonplein</adr:StreetName>
+         <adr:BuildingNumber>5</adr:BuildingNumber>
+      </adr:DeliveryAddress>
+   </adr:PostalAddress>
+</adr:PostalAddressList>
