@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<InterchangeOrganization xmlns="http://ed-fi.org/4.0.0-a" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0-a Interchange-Organisations.xsd" type="string" countryCode="EC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<InterchangeOrganization xmlns="http://ed-fi.org/4.0.0" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0 Interchange-Organisations.xsd" type="string" countryCode="EC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 
         <Name>John Doe</Name>

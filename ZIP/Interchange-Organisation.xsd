@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-           xmlns:edfi="http://ed-fi.org/4.0.0-a" 
-           targetNamespace="http://ed-fi.org/4.0.0-a" 
+           xmlns:edfi="http://ed-fi.org/4.0.0" 
+           targetNamespace="http://ed-fi.org/4.0.0" 
            xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" 
            elementFormDefault="qualified" 
            attributeFormDefault="unqualified">
