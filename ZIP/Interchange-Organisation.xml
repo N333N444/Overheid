@@ -36,34 +36,34 @@
       
 
   <InterchangeOrganization type="string" countryCode="EC">
-      <Name>John Doe</Name>
-      <Description>This is the Description</Description>
-      <URI>http://example.org/</URI>
+      <Name>Amazon</Name>
+      <Description>Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. It has been referred to as "one of the most influential economic and cultural forces in the world",[5] and is one of the world's most valuable brands.[6] It is one of the Big Five American information technology companies, alongside Alphabet, Apple, Meta, and Microsoft.</Description>
+      <URI>http://www.amazon.com/</URI>
       <Address>
-        <StreetNumberName>Straat 1</StreetNumberName>
-        <City>Rotterdam</City>
-        <StateAbbreviation>RTD</StateAbbreviation>
-        <PostalCode>12345</PostalCode>
+        <StreetNumberName>Mr.Treublaan 7</StreetNumberName>
+        <City>Amsterdam</City>
+        <StateAbbreviation>AMS</StateAbbreviation>
+        <PostalCode>1097</PostalCode>
         <AddressType>Physicall address</AddressType>
       </Address>
-      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <ElectronicMailAddress>primary@amazon.com</ElectronicMailAddress>
       <Telephone>
-        <TelephoneNumber>0612345678</TelephoneNumber>
+        <TelephoneNumber>0800 0224059</TelephoneNumber>
         <TelephoneNumberType>een telefoon</TelephoneNumberType>
       </Telephone> 
       <ContactPerson role="proffesor">
-        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Name academicTitle= "proffesor">Jeff Bezof</Name> 
         <Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
+          <StreetNumberName>Mr.Treublaan 7</StreetNumberName>
+          <City>Amsterdam</City>
+          <StateAbbreviation>AMS</StateAbbreviation>
+          <PostalCode>1097</PostalCode>
           <AddressType>Physicall address</AddressType>
         </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <ElectronicMailAddress>J.bezof@amazon.com</ElectronicMailAddress>
         <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
-          <TelephoneNumberType>1</TelephoneNumberType>
+          <TelephoneNumber>0200 0224059</TelephoneNumber>
+          <TelephoneNumberType>31</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
   </InterchangeOrganization>
