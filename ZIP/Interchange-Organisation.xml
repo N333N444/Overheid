@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <OrganizationsList xmlns="http://ed-fi.org/4.0.0" xmlns:iso="http://www.codesynthesis.com/xmlns/xsstl" xsi:schemaLocation="http://ed-fi.org/4.0.0 Interchange-Organisations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <InterchangeOrganization type="string" countryCode="EC">
-      <Name>John Doe</Name>
-      <Description>This is the Description</Description>
-      <URI>http://example.org/</URI>
+<InterchangeOrganization type="string" countryCode="EC">
+      <Name>Unicef</Name>
+      <Description>UNICEF works in over 190 countries and territories to save children's lives, to defend their rights, and to help them fulfil their potential, from early childhood through adolescence.</Description>
+      <URI>https://www.unicef.nl</URI>
       <Address>
-        <StreetNumberName>Straat 1</StreetNumberName>
-        <City>Rotterdam</City>
-        <StateAbbreviation>RTD</StateAbbreviation>
-        <PostalCode>12345</PostalCode>
+        <StreetNumberName>Bezuidenhoutseweg 74</StreetNumberName>
+        <City>Den Haag</City>
+        <StateAbbreviation>HAG</StateAbbreviation>
+        <PostalCode>2594</PostalCode>
         <AddressType>Physicall address</AddressType>
       </Address>
-      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <ElectronicMailAddress>info@unicef.nl </ElectronicMailAddress>
       <Telephone>
-        <TelephoneNumber>0612345678</TelephoneNumber>
-        <TelephoneNumberType>een telefoon</TelephoneNumberType>
+        <TelephoneNumber>0884449666 </TelephoneNumber>
+        <TelephoneNumberType> contact telephone</TelephoneNumberType>
       </Telephone> 
       <ContactPerson role="proffesor">
-        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Name academicTitle= "proffesor">Joliene Heimgartner</Name> 
         <Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
+          <StreetNumberName>Bezuidenhoutseweg 74</StreetNumberName>
+          <City>Den Haag</City>
+          <StateAbbreviation>HAG</StateAbbreviation>
+          <PostalCode>2594</PostalCode>
           <AddressType>Physicall address</AddressType>
         </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <ElectronicMailAddress>businessbuddies@unicef.nl/</ElectronicMailAddress>
         <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
+          <TelephoneNumber>0621214267</TelephoneNumber>
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
   </InterchangeOrganization>
-      
-
+  
   <InterchangeOrganization type="string" countryCode="EC">
       <Name>Amazon</Name>
       <Description>Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence. It has been referred to as "one of the most influential economic and cultural forces in the world",[5] and is one of the world's most valuable brands.[6] It is one of the Big Five American information technology companies, alongside Alphabet, Apple, Meta, and Microsoft.</Description>
@@ -71,33 +70,33 @@
 
 
   <InterchangeOrganization type="string" countryCode="EC">
-      <Name>John Doe</Name>
-      <Description>This is the Description</Description>
-      <URI>http://example.org/</URI>
+      <Name>Bol.com</Name>
+      <Description> Bol.com is een webwinkel in Nederland en België die in 1999 werd opgericht door het Duitse mediaconcern Bertelsmann AG. </Description>
+      <URI>https://www.bol.com/nl</URI>
       <Address>
-        <StreetNumberName>Straat 1</StreetNumberName>
-        <City>Rotterdam</City>
-        <StateAbbreviation>RTD</StateAbbreviation>
-        <PostalCode>12345</PostalCode>
+        <StreetNumberName>Papendorpseweg 100</StreetNumberName>
+        <City>Utrecht</City>
+        <StateAbbreviation>UTC</StateAbbreviation>
+        <PostalCode>3528</PostalCode>
         <AddressType>Physicall address</AddressType>
       </Address>
-      <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+      <ElectronicMailAddress>Klantenservice@bol.com</ElectronicMailAddress>
       <Telephone>
-        <TelephoneNumber>0612345678</TelephoneNumber>
-        <TelephoneNumberType>een telefoon</TelephoneNumberType>
+        <TelephoneNumber>0303104999</TelephoneNumber>
+        <TelephoneNumberType>contact telephone</TelephoneNumberType>
       </Telephone> 
       <ContactPerson role="proffesor">
-        <Name academicTitle= "proffesor">Jan Willem Proffesor</Name> 
+        <Name academicTitle= "proffesor">Tamara Vlootman</Name> 
         <Address>
-          <StreetNumberName>Straat 1</StreetNumberName>
-          <City>Rotterdam</City>
-          <StateAbbreviation>RTD</StateAbbreviation>
-          <PostalCode>12345</PostalCode>
+          <StreetNumberName>Papendorpseweg 100</StreetNumberName>
+          <City>Utrecht</City>
+          <StateAbbreviation>UTC</StateAbbreviation>
+          <PostalCode>3528</PostalCode>
           <AddressType>Physicall address</AddressType>
         </Address>
-        <ElectronicMailAddress>example@email.com</ElectronicMailAddress>
+        <ElectronicMailAddress>tvlootman@bol.com</ElectronicMailAddress>
         <Telephone>
-          <TelephoneNumber>0612345678</TelephoneNumber>
+          <TelephoneNumber>0618421518</TelephoneNumber>
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
