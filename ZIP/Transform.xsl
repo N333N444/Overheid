@@ -18,8 +18,8 @@
                     <p:adres><xsl:value-of select="ios:Address"/></p:adres>
                 </p:bezoekAdres>
                 <p:emailadress><xsl:value-of select="ios:ElectronicMailAddress"/></p:emailadress>
-                <telefoon><xsl:value-of select="ios:Telephone"/></telefoon>
-
+                <p:telefoon><xsl:value-of select="ios:Telephone"/></p:telefoon>
+                <p:beschrijving><xsl:value-of select="ios:Description"/></p:beschrijving>
                 
           </p:contact>
          
