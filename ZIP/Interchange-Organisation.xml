@@ -32,6 +32,21 @@
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Annemarie Blok</Name> 
+        <Address>
+          <StreetNumberName>Bezuidenhoutseweg 74</StreetNumberName>
+          <City>Den Haag</City>
+          <StateAbbreviation>HAG</StateAbbreviation>
+          <PostalCode>2594</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>nalaten@unicef.nl /</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>088 444 96 50</TelephoneNumber>
+          <TelephoneNumberType>1</TelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
   </InterchangeOrganization>
   
   <InterchangeOrganization type="string" countryCode="EC">
@@ -60,6 +75,21 @@
           <AddressType>Physicall address</AddressType>
         </Address>
         <ElectronicMailAddress>J.bezof@amazon.com</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>0200 0224059</TelephoneNumber>
+          <TelephoneNumberType>31</TelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Andy Jassy</Name> 
+        <Address>
+          <StreetNumberName>Mr.Treublaan 7</StreetNumberName>
+          <City>Amsterdam</City>
+          <StateAbbreviation>AMS</StateAbbreviation>
+          <PostalCode>1097</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>A.Jassy@amazon.com</ElectronicMailAddress>
         <Telephone>
           <TelephoneNumber>0200 0224059</TelephoneNumber>
           <TelephoneNumberType>31</TelephoneNumberType>
@@ -97,6 +127,21 @@
         <ElectronicMailAddress>tvlootman@bol.com</ElectronicMailAddress>
         <Telephone>
           <TelephoneNumber>0618421518</TelephoneNumber>
+          <TelephoneNumberType>1</TelephoneNumberType>
+        </Telephone>
+      </ContactPerson>
+      <ContactPerson role="proffesor">
+        <Name academicTitle= "proffesor">Florentine Hamming</Name> 
+        <Address>
+          <StreetNumberName>Papendorpseweg 100</StreetNumberName>
+          <City>Utrecht</City>
+          <StateAbbreviation>UTC</StateAbbreviation>
+          <PostalCode>3528</PostalCode>
+          <AddressType>Physicall address</AddressType>
+        </Address>
+        <ElectronicMailAddress>fhamming@bol.com</ElectronicMailAddress>
+        <Telephone>
+          <TelephoneNumber>0620421518</TelephoneNumber>
           <TelephoneNumberType>1</TelephoneNumberType>
         </Telephone>
       </ContactPerson>
