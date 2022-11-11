@@ -22,6 +22,20 @@
                 <p:beschrijving><xsl:value-of select="ios:Description"/></p:beschrijving>
                 
           </p:contact>
+          <p:functies>
+                <p:functiesType>
+                    <p:functie>
+                        <p:medewerkers>
+                             <p:medewerkersType> 
+                                <p:medewerker><xsl:value-of select="substring-after(ios:ContactPerson,'')"/></p:medewerker>
+                            </p:medewerkersType>
+                        </p:medewerkers>
+                    </p:functie>
+
+                </p:functiesType>
+
+          </p:functies>
+
          
 
         </p:organisatie>
