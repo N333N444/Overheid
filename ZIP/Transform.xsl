@@ -10,8 +10,16 @@
         </p:overheidsorganisaties>
     </xsl:template>
 
-    <xsl:templates match:"ios:organization">
-        
+    <xsl:template match="ios:InterchangeOrganization">
+        <p:organisatie>
+          <p:naam><xsl:value-of select="ios:Name"/></p:naam>
+          <p:contact>
+                <p:bezoekAdres>
+                    <p:adres><xsl:value-of select="ios:Address"/></p:adres>
+                </p:bezoekAdres>
+          </p:contact>
+
+        </p:organisatie>
     </xsl:template>
 
 </xsl:stylesheet>
