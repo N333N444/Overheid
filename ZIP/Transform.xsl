@@ -4,9 +4,9 @@
     xmlns:p="https://almanak.overheid.nl/static/schema/oo/export/2.4.23">
 
     <xsl:template match="/">
-        <p:overheidsorganisaties xmlns:xs="http://www.w3.org/2001/XMLSchema">
-        <xsi:schemaLocation="https://almanak.overheid.nl/static/schema/oo/export/2.4.23 oo-export-2.4.23.xsd">
-        <xsl:apply-templates select="//ios:InterchangeOrganization">
+        <p:overheidsorganisaties xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            xsi:schemaLocation="https://almanak.overheid.nl/static/schema/oo/export/2.4.23 oo-export-2.4.23.xsd">
+            <xsl:apply-templates select="//ios:InterchangeOrganization"/>
         </p:overheidsorganisaties>
     </xsl:template>
 
